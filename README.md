@@ -46,7 +46,7 @@ Before you begin, ensure you have:
 
 ```bash
 # Navigate to project
-cd /Users/yug/Documents/Work/IELTSQuizApp
+cd Documents/Work/IELTSQuizApp
 
 # Install dependencies
 npm install
