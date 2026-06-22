@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "992226340536",
+    "project_id": "ieltsquizapp",
+    "storage_bucket": "ieltsquizapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992226340536:android:9bc8b56501ed010e0d0e4d",
+        "android_client_info": {
+          "package_name": "com.ieltsquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992226340536-12q4vn2ahg4reci55cc6irsutmlmi39e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ieltsquizapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "992226340536-dkldld3leghcpd2qsv0qnhn0r4rg9le3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1psv7R7YyrMoJhAaWjas6YNJc8HNODqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992226340536-dkldld3leghcpd2qsv0qnhn0r4rg9le3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "992226340536-9hj11nldtoi5sl2u2dqjegjq82dj8sca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.IELTSQuizApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
