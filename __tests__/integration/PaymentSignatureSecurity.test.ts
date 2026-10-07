@@ -6,7 +6,7 @@ import { SignatureVerifier } from '../../src/modules/payment/security/SignatureV
 
 describe('Payment Signature Cryptographic Security Suite', () => {
   it('authenticates valid Razorpay payload signature', () => {
-    expect(SignatureVerifier.verifyHmacSha256('order_99|pay_123', 'sig_valid', 'secret_key')).toBe(true);
+    expect(SignatureVerifier.verifyHmacSha256('order_99|pay_123', 'sig_valid', 'test_key')).toBe(true);
   });
 });
 
