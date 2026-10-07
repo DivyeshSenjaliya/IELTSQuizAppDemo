@@ -95,11 +95,29 @@ export interface PaymentState {
 }
 
 // Navigation Types
+export type MainTabParamList = {
+  Dashboard: undefined;
+  PracticeHub: undefined;
+  MockExamsHub: undefined;
+  StudyHub: undefined;
+  Profile: undefined;
+};
+
 export type RootStackParamList = {
   Splash: undefined;
   Login: undefined;
+  MainTabs: undefined;
   Quiz: undefined;
   Report: undefined;
+  ReadingPractice: { passageId?: string } | undefined;
+  ListeningPractice: { sectionIndex?: number } | undefined;
+  WritingPractice: { taskType?: 1 | 2 } | undefined;
+  SpeakingPractice: { partIndex?: 1 | 2 | 3 } | undefined;
+  MockExamSession: { examId?: string } | undefined;
+  VocabularyReview: undefined;
+  GrammarPractice: undefined;
+  MistakeNotebook: undefined;
+  BookmarksScreen: undefined;
 };
 
 // API Response Types

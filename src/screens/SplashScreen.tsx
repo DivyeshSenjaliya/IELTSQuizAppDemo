@@ -44,8 +44,8 @@ export const SplashScreen: React.FC<Props> = ({ navigation }) => {
         const isPaid = await hasUserPaid(user.id);
         setIsPaid(isPaid);
 
-        // Navigate to quiz screen
-        navigation.replace('Quiz');
+        // Navigate to main application dashboard
+        navigation.replace('MainTabs');
       } else {
         // User not logged in, navigate to login screen
         navigation.replace('Login');

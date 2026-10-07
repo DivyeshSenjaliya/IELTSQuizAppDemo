@@ -42,8 +42,8 @@ export const LoginScreen: React.FC<Props> = ({ navigation }) => {
       const isPaid = await hasUserPaid(user.id);
       setIsPaid(isPaid);
 
-      // Navigate to quiz
-      navigation.replace('Quiz');
+      // Navigate to dashboard
+      navigation.replace('MainTabs');
     } catch (err: any) {
       if (err.message !== 'Sign-in cancelled by user') {
         console.error('Sign-in error:', err);
